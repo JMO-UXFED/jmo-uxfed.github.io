@@ -1,8 +1,8 @@
   body {
-background: background:url("images/stripes.png") repeat url("images/background.jpg") no-repeat;
+background: url("images/stripes.png") repeat-x, url("images/background.jpg") no-repeat;
 background-size: auto, cover;
-color: #fffff;
-font-family: cabin, serif;
+color: #ffffff;
+font-family: Arial, sans-serif;
 }
 
 section {
@@ -10,13 +10,9 @@ margin:200px 0 0 100px;
 }
 
 hr {
-background: #666666;
-border: 0 none;
-height: 2px;
+
+border-color:#fd6e6e;
+
 margin: 0;
 width: 50px;
-}
-
-#appstorebutton {
-width: 185;
 }
