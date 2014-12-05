@@ -1,28 +1,20 @@
-	body {
+* {margin:0;padding:0;box-sizing:border-box;}
+body {
 	background: url("images/justdessert.png") no-repeat; 
-	background-size: auto, cover;
-	font-color: #ffffff;
+	background-size:cover;
+	color: #ffffff;
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 20px;
-	font-color: #000000;
-	font-weight: bold;
-	text-align: left;
-	}
+}
 
-	h1 {
+h1 {
 		font-size: 35px;
-		font-color: #ffffff;
 		background-color: #ffffff;
-		font-family: 'Shadows Into Light', cursive;
 		font-weight: bold;
-		font-style: 
 		text-transform: uppercase;
-		}
+}
 
-	.section {
+section {
 	line-height: 1.50em;
-	margin-right: auto;
-	margin-bottom: auto;
-	margin-left: auto;
-	margin-top: auto;
-	}
+	margin:0 auto;
+}
